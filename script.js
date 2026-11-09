@@ -108,18 +108,13 @@ function setupSearch() {
         searchResults.hidden = false;
     });
 
-    // Bắt sự kiện click chuẩn: Cho phép chuyển trang, sau đó mới đóng tìm kiếm
     searchResults.addEventListener('click', (e) => {
         const link = e.target.closest('a');
         if (link) {
-            // Đợi 50ms để trình duyệt kịp đổi URL trước khi xóa thanh tìm kiếm
-            setTimeout(() => {
-                window.closeSearch();
-            }, 50);
+            setTimeout(() => { window.closeSearch(); }, 50);
         }
     });
 
-    // Đóng khi click ra ngoài
     document.addEventListener('click', (e) => {
         if (!e.target.closest('.search-wrapper')) {
             searchResults.hidden = true;
@@ -189,38 +184,67 @@ function renderPack(pack) {
   `).join('');
 }
 
+// HÀM MỚI: Xử lý đóng/mở Accordion
+window.toggleAccordion = function (btn) {
+    const item = btn.parentElement;
+    item.classList.toggle('active');
+}
+
 function renderCard(card) {
-    const authorName = db.authors[card.author_slug]?.name || 'Đang cập nhật';
-    const workTitle = db.works[card.work_slug]?.title || 'Đang cập nhật';
+    const authorObj = db.authors[card.author_slug] || {};
+    const workObj = db.works[card.work_slug] || {};
+    const authorName = authorObj.name || 'Đang cập nhật';
+    const workTitle = workObj.title || 'Đang cập nhật';
 
     document.getElementById('cardDetailContainer').innerHTML = `
     <a href="#/pack/${card.packId}" class="back-btn">← Trở về ${card.packName}</a>
+    
     <div class="card-detail-header">
       <p class="eyebrow" style="color: ${card.packColor}">${card.packName.toUpperCase()} · ${card.code}</p>
       <h1>${card.title}</h1>
       <p class="card-detail-subtitle">${card.subtitle || ''}</p>
     </div>
+
     <div class="card-section">
       <h3>Lời dẫn</h3>
       <div class="text-content">${formatText(card.introduction) || '<p>Nội dung đang cập nhật.</p>'}</div>
     </div>
+
     <div class="quote-box">
       <p>“${card.quote || 'Đang cập nhật'}”</p>
       <div class="quote-source">${card.quote_source || ''}</div>
     </div>
+
     <div class="card-section">
       <h3>Gợi mở & Phân tích</h3>
       <div class="text-content">${formatText(card.analysis) || '<p>Nội dung đang cập nhật.</p>'}</div>
     </div>
-    <div class="info-links">
-      <a href="#/author/${card.author_slug}" class="info-card">
-        <span>Đôi nét về Tác giả</span>
-        <strong>${authorName} →</strong>
-      </a>
-      <a href="#/work/${card.work_slug}" class="info-card">
-        <span>Khám phá Tác phẩm</span>
-        <strong>${workTitle} →</strong>
-      </a>
+
+    <!-- KHU VỰC ACCORDION MỚI -->
+    <div class="accordion-list">
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="toggleAccordion(this)">
+          <span>Đôi nét về Tác giả: <strong>${authorName}</strong></span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-content">
+          <div class="accordion-content-inner">
+             <div class="text-content">${formatText(authorObj.content) || '<p>Thông tin đang cập nhật.</p>'}</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="toggleAccordion(this)">
+          <span>Khám phá Tác phẩm: <strong>${workTitle}</strong></span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-content">
+          <div class="accordion-content-inner">
+             <div class="text-content">${formatText(workObj.content) || '<p>Thông tin đang cập nhật.</p>'}</div>
+          </div>
+        </div>
+      </div>
     </div>
   `;
 }
