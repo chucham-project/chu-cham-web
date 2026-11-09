@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f1e8">
+    <title>Chữ Chạm — Thẻ văn học</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#/">
+            <span class="brand-mark">C</span>
+            <span>CHỮ CHẠM<span class="brand-dot">.</span></span>
+        </a>
+
+        <!-- THANH TÌM KIẾM TOÀN CẦU -->
+        <div class="search-wrapper">
+            <input type="text" id="globalSearch" placeholder="Tìm thẻ, tác giả, tác phẩm..." autocomplete="off">
+            <div id="searchResults" class="search-results" hidden></div>
+        </div>
+
+        <nav class="main-nav">
+            <a href="#/">Trang chủ</a>
+            <a href="#/pack/chanh-venh">Chênh vênh</a>
+            <a href="#/pack/nhung-nho">Nhung nhớ</a>
+            <a href="#/pack/vo-ve">Vỗ về</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+    </header>
+
+    <main id="app">
+        <section id="view-home" class="view active">
+            <div class="hero">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> VĂN HỌC · CẢM XÚC · KẾT NỐI</p>
+                    <h1>Chạm vào chữ,<br><em>gặp lại mình.</em></h1>
+                    <p class="hero-description">Một bộ thẻ nhỏ mở ra những miền cảm xúc lớn. Mỗi tấm thẻ là một lời mời đọc, cảm và đối thoại cùng văn chương.</p>
+                </div>
+            </div>
+            <div class="intro-strip">
+                <p class="eyebrow">Ý TƯỞNG DỰ ÁN</p>
+                <p class="intro-statement">Đưa văn học đến gần hơn với đời sống qua những <em>trải nghiệm chạm – đọc – khám phá.</em></p>
+            </div>
+            <section class="themes-section">
+                <div class="section-heading">
+                    <div><p class="eyebrow">BA MIỀN CẢM XÚC</p><h2>Mỗi người một miền,<br><em>mỗi miền một vệt chữ.</em></h2></div>
+                </div>
+                <div class="theme-grid" id="homePackGrid"></div>
+            </section>
+        </section>
+
+        <section id="view-pack" class="view">
+            <div class="pack-header" id="packHeader"></div>
+            <div class="card-grid" id="packCardGrid"></div>
+        </section>
+
+        <section id="view-card" class="view">
+            <div class="card-detail-container" id="cardDetailContainer"></div>
+        </section>
+
+        <section id="view-author" class="view">
+            <div class="detail-page-container" id="authorContainer"></div>
+        </section>
+
+        <section id="view-work" class="view">
+            <div class="detail-page-container" id="workContainer"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand" href="#/"><span class="brand-mark">C</span><span>CHỮ CHẠM<span class="brand-dot">.</span></span></a>
+        <p>Dự án kết nối văn học và cảm xúc.</p>
+        <span>© <span id="year"></span> Chữ Chạm.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
