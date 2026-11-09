@@ -105,7 +105,6 @@ a {
     display: none;
 }
 
-/* TÌM KIẾM */
 .search-wrapper {
     position: relative;
     width: 400px;
@@ -146,7 +145,6 @@ a {
     flex-direction: column;
 }
 
-    /* ÉP BUỘC ẨN KHI CÓ THUỘC TÍNH HIDDEN */
     .search-results[hidden] {
         display: none !important;
     }
@@ -173,7 +171,6 @@ a {
     padding: 12px 20px;
     border-bottom: 1px solid #f0f0f0;
     transition: background 0.2s;
-    position: relative;
     cursor: pointer;
 }
 
@@ -528,44 +525,78 @@ a {
     letter-spacing: 0.1em;
 }
 
-.info-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin: 50px 0;
+/* =========================================
+   GIAO DIỆN ACCORDION (MỞ RỘNG TẠI CHỖ)
+   ========================================= */
+.accordion-list {
+    margin-top: 50px;
+    border-top: 1px solid var(--line);
 }
 
-.info-card {
-    background: #fdfdfd;
-    border: 1px solid var(--line);
-    padding: 25px;
+.accordion-item {
+    border-bottom: 1px solid var(--line);
+}
+
+.accordion-header {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    padding: 25px 0;
     display: flex;
-    flex-direction: column;
-    transition: all 0.3s;
-    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-family: var(--display);
+    font-size: 22px;
+    transition: color 0.3s;
 }
 
-    .info-card:hover {
-        background: var(--paper-deep);
-        border-color: var(--red);
-        transform: translateY(-3px);
-    }
-
-    .info-card span {
-        font-family: Arial, sans-serif;
-        font-size: 11px;
-        font-weight: bold;
+    .accordion-header:hover {
         color: var(--red);
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        margin-bottom: 10px;
     }
 
-    .info-card strong {
-        font-family: var(--display);
-        font-size: 24px;
-        font-weight: 400;
+    .accordion-header strong {
+        font-weight: 600;
+        color: var(--red);
     }
+
+.accordion-icon {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    transition: transform 0.3s;
+    color: var(--red);
+}
+
+.accordion-content {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.4s ease-out;
+}
+
+.accordion-content-inner {
+    overflow: hidden;
+}
+
+.accordion-item.active .accordion-content {
+    grid-template-rows: 1fr;
+}
+
+.accordion-item.active .accordion-icon {
+    transform: rotate(45deg);
+}
+
+.accordion-content .text-content {
+    padding-bottom: 30px;
+    margin: 0;
+    font-size: 16px;
+}
+
+    .accordion-content .text-content::first-letter {
+        font-size: 40px;
+    }
+/* Chữ cái đầu nhỏ hơn chút cho gọn */
+/* ========================================= */
 
 .page-header {
     text-align: center;
@@ -610,10 +641,6 @@ a {
     }
 
     .theme-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .info-links {
         grid-template-columns: 1fr;
     }
 
