@@ -1,1 +1,453 @@
-
+{
+  "packs": [
+    {
+      "id": "chanh-venh",
+      "name": "Chênh vênh",
+      "color": "#B55F46",
+      "description": "Những điều chưa gọi tên",
+      "cards": [
+        {
+          "code": "CV-01",
+          "slug": "co-don",
+          "title": "Cô đơn",
+          "author_slug": "che-lan-vien",
+          "work_slug": "nhung-soi-to-long",
+          "subtitle": "Nỗi niềm của một hồn thơ đau đáu",
+          "introduction": "Cô đơn không chỉ là khi ở một mình, mà là khi giữa muôn vàn người, ta vẫn thấy mình lạc lõng.",
+          "quote": "Trời hỡi, bao giờ tôi chết đi?",
+          "quote_source": "- Trích Những sợi tơ lòng, Chế Lan Viên -",
+          "analysis": "Sự chênh vênh thể hiện qua tiếng thở dài não nuột về sự hữu hạn của đời người và nỗi cô độc tột cùng. Đó là sự giằng xé giữa khát vọng vĩnh cửu và thực tại phù du."
+        },
+        {
+          "code": "CV-02",
+          "slug": "lac-long",
+          "title": "Lạc lõng",
+          "author_slug": "nam-cao",
+          "work_slug": "doi-thua",
+          "subtitle": "Bi kịch của người trí thức giữa cơm áo",
+          "introduction": "Có những con người mang trong mình hoài bão lớn lao nhưng lại bị gánh nặng mưu sinh bóp nghẹt, dẫn đến sự tha hóa.",
+          "quote": "Hắn còn điên lên vì con khóc, nhà không lúc nào yên tĩnh để cho hắn viết hay đọc sách.",
+          "quote_source": "- Trích Đời thừa, Nam Cao -",
+          "analysis": "Sự lạc lõng của Hộ là sự lạc lõng của cái Đẹp giữa cuộc đời thực dụng. Nam Cao đã chạm đến tận cùng bi kịch: con người đánh mất chính mình vì miếng cơm manh áo."
+        },
+        {
+          "code": "CV-03",
+          "slug": "vo-dinh",
+          "title": "Vô định",
+          "author_slug": "luu-trong-lu",
+          "work_slug": "tieng-thu",
+          "subtitle": "Nỗi buồn mơ hồ, bơ vơ",
+          "introduction": "Mùa thu trong thơ Lưu Trọng Lư không chỉ là cảnh vật, mà là một không gian tâm trạng, nơi lòng người chất chứa những nỗi buồn không thể gọi tên.",
+          "quote": "Em không nghe rừng thu / Lá thu kêu xào xạc, / Con nai vàng ngơ ngác / Đạp trên lá vàng khô?",
+          "quote_source": "- Trích Tiếng thu, Lưu Trọng Lư -",
+          "analysis": "Hình ảnh 'con nai vàng ngơ ngác' là biểu tượng cho sự vô định, lạc lõng của tâm hồn. Giữa không gian bao la, con người cảm thấy mình nhỏ bé, bơ vơ."
+        },
+        {
+          "code": "CV-04",
+          "slug": "day-dut",
+          "title": "Day dứt",
+          "author_slug": "dan-gian",
+          "work_slug": "ngon-lua-hong-son",
+          "subtitle": "Sự giằng xé giữa trung và hiếu",
+          "introduction": "Nghệ thuật Tuồng không chỉ là diễn xướng mà còn là những bài học đạo lý sâu sắc về lòng trung nghĩa.",
+          "quote": "Tà không thể thắng Chánh, cái thiện luôn chiến thắng cái ác.",
+          "quote_source": "- Trích Tuồng Ngọn lửa Hồng Sơn -",
+          "analysis": "Sự day dứt chính là sự giằng xé của nhân vật trước những biến cố lịch sử, khi phải đứng giữa lựa chọn tình thân và lòng trung với đất nước."
+        },
+        {
+          "code": "CV-05",
+          "slug": "lua-chon",
+          "title": "Lựa chọn",
+          "author_slug": "to-huu",
+          "work_slug": "day-ma-di",
+          "subtitle": "Tinh thần đứng lên sau vấp ngã",
+          "introduction": "Trong hành trình dài của cuộc đời, không ai có thể tránh khỏi những lần vấp ngã. Điều quan trọng là bạn chọn đứng dậy như thế nào.",
+          "quote": "Ai chiến thắng mà không hề chiến bại / Ai nên khôn mà chẳng dại đôi lần?",
+          "quote_source": "- Trích Dậy mà đi, Tố Hữu -",
+          "analysis": "Sự chênh vênh ở đây là khi con người đối diện với thất bại. Bài thơ đưa ra một lựa chọn đầy bản lĩnh: 'Đứng dậy, xoa tay, và tự bảo: Chân có ngã thì đứng lên, lại bước'."
+        },
+        {
+          "code": "CV-06",
+          "slug": "hut-hang",
+          "title": "Hụt hẫng",
+          "author_slug": "doan-van-cu",
+          "work_slug": "cho-tet",
+          "subtitle": "Sự đối lập giữa ngoại cảnh rộn ràng và lòng người",
+          "introduction": "Giữa khung cảnh tưng bừng, náo nhiệt của ngày Tết, đôi khi lòng người lại dâng lên một nỗi buồn khó tả.",
+          "quote": "Người các ấp tưng bừng ra chợ Tết",
+          "quote_source": "- Trích Chợ Tết, Đoàn Văn Cừ -",
+          "analysis": "Sự 'hụt hẫng' đến từ sự đối lập giữa sự náo nhiệt của tạo hóa và sự hữu hạn của kiếp người. Đoàn Văn Cừ đã rất tinh tế khi đặt những hoạt động đời thường vào một không gian Tết xưa."
+        },
+        {
+          "code": "CV-07",
+          "slug": "ngon-ngang",
+          "title": "Ngổn ngang",
+          "author_slug": "nguyen-du",
+          "work_slug": "truyen-kieu",
+          "subtitle": "Những giằng xé của kiếp hồng nhan",
+          "introduction": "Trong tâm trí mỗi con người, có những lúc mọi suy nghĩ, cảm xúc đan xen vào nhau như một mớ bòng bong.",
+          "quote": "Lời văn tả ra hình như máu chảy ở đầu ngọn bút, nước mắt thấm ở trên tờ giấy...",
+          "quote_source": "- Tiên Phong Mộng Liên Đường Chủ Nhân -",
+          "analysis": "Từ chủ đề ngổn ngang, người đọc suy ngẫm về những giằng co nội tâm của Thúy Kiều: giữa chữ hiếu và chữ tình, giữa khát vọng sống và hiện thực phũ phàng."
+        }
+      ]
+    },
+    {
+      "id": "nhung-nho",
+      "name": "Nhung nhớ",
+      "color": "#967A97",
+      "description": "Những điều còn ở lại",
+      "cards": [
+        {
+          "code": "NN-01",
+          "slug": "cho-doi",
+          "title": "Chờ đợi",
+          "author_slug": "thach-lam",
+          "work_slug": "duoi-bong-hoang-lan",
+          "subtitle": "Sự chờ đợi dịu dàng dưới bóng hoàng lan",
+          "introduction": "Trong truyện ngắn 'Dưới bóng hoàng lan', sự chờ đợi không mang sắc thái mệt mỏi, mà là một sự chờ đợi đầy êm đềm và chan chứa yêu thương.",
+          "quote": "Nước mắt rơi và Thanh cúi nhìn bóng chàng lay động trong lòng bể vời những mảnh trời xanh tan tác.",
+          "quote_source": "- Trích Dưới bóng hoàng lan, Thạch Lam -",
+          "analysis": "Sự chờ đợi là mạch ngầm cảm xúc nuôi dưỡng tâm hồn. Đó là sự chờ đợi của tình thân và tình yêu, khẳng định: Quê hương và tình thân luôn là điểm tựa vĩnh hằng."
+        },
+        {
+          "code": "NN-02",
+          "slug": "tuong-tu",
+          "title": "Tương tư",
+          "author_slug": "nguyen-binh",
+          "work_slug": "tuong-tu",
+          "subtitle": "Nỗi nhớ da diết của chàng trai quê",
+          "introduction": "Tương tư là trạng thái tâm lý quen thuộc khi yêu. Dưới ngòi bút Nguyễn Bính, nỗi nhớ mang đậm hơi thở đồng quê.",
+          "quote": "Bao giờ bến mới gặp đò / Hoa khuê các bướm giang hồ gặp nhau?",
+          "quote_source": "- Trích Tương tư, Nguyễn Bính -",
+          "analysis": "Nỗi tương tư không chỉ là nỗi lòng cá nhân mà đã trở thành quy luật: 'Tương tư là bệnh của tôi yêu nàng'. Sự nhung nhớ biến thành khát vọng gắn kết gia đình."
+        },
+        {
+          "code": "NN-03",
+          "slug": "hoai-huong",
+          "title": "Hoài hương",
+          "author_slug": "dan-gian",
+          "work_slug": "ca-dao-que-nha",
+          "subtitle": "Tình yêu quê hương trong những điều bình dị",
+          "introduction": "Ca dao là tiếng hát tâm hồn của người lao động. Trong đó, tình yêu quê hương luôn là mạch nguồn cảm xúc không vơi cạn.",
+          "quote": "Anh đi anh nhớ quê nhà / Nhớ canh rau muống, nhớ cà dầm tương",
+          "quote_source": "- Ca dao Việt Nam -",
+          "analysis": "Sự nhung nhớ quê hương gắn với những biểu tượng mộc mạc. 'Canh rau muống', 'cà dầm tương' là hương vị quê hương, của tình mẹ. Nỗi nhớ giản dị nhưng có sức lay động sâu sắc."
+        },
+        {
+          "code": "NN-04",
+          "slug": "lo-lang",
+          "title": "Lỡ làng",
+          "author_slug": "ho-xuan-huong",
+          "work_slug": "tu-tinh-2",
+          "subtitle": "Bi kịch duyên phận của người phụ nữ",
+          "introduction": "Trong xã hội phong kiến, người phụ nữ luôn chịu thiệt thòi. Họ khao khát hạnh phúc nhưng bị trói buộc bởi định kiến.",
+          "quote": "Mảnh tình san sẻ tí con con!",
+          "quote_source": "- Trích Tự tình (II), Hồ Xuân Hương -",
+          "analysis": "Sự 'lỡ làng' thể hiện qua nỗi đau đớn khi tình yêu bị chia cắt. Bài thơ vừa là tiếng than thân, vừa là sự phản kháng ngấm ngầm nhưng quyết liệt."
+        },
+        {
+          "code": "NN-05",
+          "slug": "hoai-niem",
+          "title": "Hoài niệm",
+          "author_slug": "ba-huyen-thanh-quan",
+          "work_slug": "thang-long-hoai-co",
+          "subtitle": "Nỗi niềm trước sự đổi thay của thời cuộc",
+          "introduction": "Có những giá trị tưởng chừng vĩnh cửu nhưng cũng bị bào mòn bởi thời gian. Đứng trước cảnh cũ, lòng người bâng khuâng.",
+          "quote": "Đá vẫn trơ gan cùng tuế nguyệt / Nước còn cau mặt với tang thương.",
+          "quote_source": "- Trích Thăng Long thành hoài cổ -",
+          "analysis": "Nỗi hoài niệm là nỗi đau xót trước sự thay đổi của lịch sử. Sự bất biến của đá và nước càng làm nổi bật sự tàn phai của kiếp người."
+        },
+        {
+          "code": "NN-06",
+          "slug": "chia-ly",
+          "title": "Chia ly",
+          "author_slug": "khanh-hoai",
+          "work_slug": "cuoc-chia-tay-bup-be",
+          "subtitle": "Nỗi đau của tuổi thơ khi gia đình đổ vỡ",
+          "introduction": "Khi người lớn không còn tiếng nói chung, người chịu tổn thương lớn nhất thường là trẻ nhỏ.",
+          "quote": "Anh lại chia rẽ con Vệ Sĩ với con Em Nhỏ ra à? Sao anh ác thế!",
+          "quote_source": "- Trích Cuộc chia tay của những con búp bê -",
+          "analysis": "Cuộc chia tay của Thành và Thủy là bi kịch của trẻ vô tội. Nỗi đau được thể hiện qua chi tiết chia đồ chơi và chia cắt quyền đến trường."
+        },
+        {
+          "code": "NN-07",
+          "slug": "ki-uc",
+          "title": "Kí ức",
+          "author_slug": "dan-gian",
+          "work_slug": "ca-dao-ky-uc",
+          "subtitle": "Những dấu vết của thời gian",
+          "introduction": "Kí ức là phần không thể thiếu trong cuộc sống. Hình ảnh thân thương của quê hương luôn in đậm dù ta đi xa.",
+          "quote": "Cây đa cũ, bến đò xưa / Bộ hành có nghỉ, nắng mưa cũng chờ",
+          "quote_source": "- Ca dao Việt Nam -",
+          "analysis": "Kí ức trong ca dao là những điều bình dị nhưng thiêng liêng. Đó là sự nhắc nhở về cội nguồn, về giá trị truyền thống tốt đẹp."
+        }
+      ]
+    },
+    {
+      "id": "vo-ve",
+      "name": "Vỗ về",
+      "color": "#557B5E",
+      "description": "Những điều dịu dàng",
+      "cards": [
+        {
+          "code": "VV-01",
+          "slug": "tu-thuong",
+          "title": "Tự thương",
+          "author_slug": "dan-gian",
+          "work_slug": "ca-dao-tu-thuong",
+          "subtitle": "Ý thức về thân phận và giá trị bản thân",
+          "introduction": "Biết tự thương mình không phải là ích kỷ, mà là sự trân trọng chính bản thân, đặc biệt khi hiểu giá trị của chính mình.",
+          "quote": "Thân em như tấm lụa đào / Phất phơ giữa chợ biết vào tay ai",
+          "quote_source": "- Ca dao Việt Nam -",
+          "analysis": "Sự 'tự thương' là sự xót xa cho thân phận bấp bênh, đồng thời khẳng định giá trị. Người phụ nữ ý thức mình là 'tấm lụa đào' quý giá."
+        },
+        {
+          "code": "VV-02",
+          "slug": "an-yen",
+          "title": "An yên",
+          "author_slug": "nguyen-binh-khiem",
+          "work_slug": "nhan",
+          "subtitle": "Lối sống thanh đạm, hòa mình cùng tự nhiên",
+          "introduction": "An yên không phải khi cuộc sống không sóng gió, mà là khi tâm hồn đủ tĩnh lặng để đón nhận mọi thứ nhẹ nhàng.",
+          "quote": "Ta dại, ta tìm nơi vắng vẻ / Người khôn, người đến chốn lao xao.",
+          "quote_source": "- Trích Nhàn, Nguyễn Bỉnh Khiêm -",
+          "analysis": "Sự 'vỗ về' đến từ triết lý an nhiên. Ông tìm thấy bình yên trong điều giản dị: 'Một mai, một cuốc, một cần câu', phủ nhận phú quý phù du."
+        },
+        {
+          "code": "VV-03",
+          "slug": "chap-nhan",
+          "title": "Chấp nhận",
+          "author_slug": "nguyen-trai",
+          "work_slug": "thuat-hoai",
+          "subtitle": "Nỗi lòng ưu ái và sự hy sinh thầm lặng",
+          "introduction": "Có những con người đặt vận mệnh đất nước lên vai, chấp nhận hy sinh để hoàn thành sứ mệnh.",
+          "quote": "Bui một tấc lòng ưu ái cũ / Đêm ngày cuồn cuộn nước triều đông.",
+          "quote_source": "- Trích Thuật Hoài, Nguyễn Trãi -",
+          "analysis": "Sự 'chấp nhận' là sự hy sinh của bậc đại trượng phu. 'Một tấc lòng ưu ái' nhỏ bé nhưng chứa cả đại dương tình cảm với đất nước."
+        },
+        {
+          "code": "VV-04",
+          "slug": "hy-vong",
+          "title": "Hy vọng",
+          "author_slug": "thanh-hai",
+          "work_slug": "mua-xuan-nho-nho",
+          "subtitle": "Khát vọng cống hiến và niềm tin vào tương lai",
+          "introduction": "Dù hoàn cảnh nào, con người vẫn cần tia hy vọng để vươn lên, sống có ích và cống hiến.",
+          "quote": "Đất nước như vì sao / Cứ đi lên phía trước.",
+          "quote_source": "- Trích Mùa xuân nho nhỏ, Thanh Hải -",
+          "analysis": "Hy vọng là niềm tin mãnh liệt vào sự trường tồn dân tộc. Khát vọng 'mùa xuân nho nhỏ' là sự khiêm nhường nhưng vĩ đại."
+        },
+        {
+          "code": "VV-05",
+          "slug": "niem-tin",
+          "title": "Niềm tin",
+          "author_slug": "pham-tien-duat",
+          "work_slug": "truong-son-dong-tay",
+          "subtitle": "Tình yêu trong gian khó, lạc quan giữa chiến tranh",
+          "introduction": "Trong chiến tranh ác liệt, tình yêu và niềm tin là ngọn lửa sưởi ấm trái tim người lính.",
+          "quote": "Đông Tây Trường Sơn / Không nơi nào lời / Chỉ một ánh mắt / Là hiểu nhau rồi",
+          "quote_source": "- Trích Trường Sơn Đông, Trường Sơn Tây -",
+          "analysis": "Niềm tin là vũ khí tinh thần mạnh mẽ nhất. Bom đạn chia cắt không gian, nhưng không chia cắt được tình cảm. Ánh mắt đồng điệu là 'ánh mặt trời' tất thắng."
+        },
+        {
+          "code": "VV-06",
+          "slug": "thu-tha",
+          "title": "Thứ tha",
+          "author_slug": "nguyen-minh-chau",
+          "work_slug": "ben-que",
+          "subtitle": "Sự thức tỉnh muộn màng và tình cảm gia đình",
+          "introduction": "Đôi khi, phải đến cuối đời, con người mới nhận ra giá trị thực sự của những điều bình dị.",
+          "quote": "Những bông hoa bằng lăng tím thẫm cuối mùa, màu đỏ phù sa của dòng sông...",
+          "quote_source": "- Trích Bến quê, Nguyễn Minh Châu -",
+          "analysis": "Thông điệp của 'thứ tha' là sự thức tỉnh. Nhĩ nhận ra sự vô tâm trong quá khứ, học cách trân trọng người vợ tảo tần."
+        },
+        {
+          "code": "VV-07",
+          "slug": "gan-ket",
+          "title": "Gắn kết",
+          "author_slug": "dan-gian",
+          "work_slug": "cheo-luu-binh",
+          "subtitle": "Tình bạn cao cả và sự hy sinh của người vợ",
+          "introduction": "Tình bạn chân chính không phải là bao che, mà dùng trí tuệ khơi dậy lòng tự trọng và giúp nhau trưởng thành.",
+          "quote": "Chờ cho anh đỗ bảng vàng / Thì em mới dám trải chiếu cạp điều đón anh",
+          "quote_source": "- Trích Chèo Lưu Bình - Dương Lễ -",
+          "analysis": "Sự 'gắn kết' là tình bạn tri kỷ và tình vợ chồng thủy chung. Châu Long hy sinh danh dự để hoàn thành 'nghĩa lớn' giúp chồng giúp bạn."
+        }
+      ]
+    }
+  ],
+  "authors": {
+    "che-lan-vien": {
+      "name": "Chế Lan Viên",
+      "years": "1920 - 1989",
+      "content": "Chế Lan Viên là một nhà thơ lớn của văn học hiện đại Việt Nam. Thơ ông có sự chuyển biến mạnh mẽ từ thế giới siêu hình, ma mị (Điêu tàn) đến hơi thở hiện thực và chất suy tưởng triết lý sâu sắc. Ông là một trong những gương mặt tiêu biểu của nền thơ ca cách mạng Việt Nam."
+    },
+    "nam-cao": {
+      "name": "Nam Cao",
+      "years": "1915 - 1951",
+      "content": "Nam Cao sinh ngày 29 tháng 10 năm 1915 tại làng Đại Hoàng, xã Hòa Hậu, huyện Lý Nhân, tỉnh Hà Nam (nay là xã Nam Lý, tỉnh Ninh Bình). Ông đã ghép hai chữ đầu tiên của tên tổng và huyện làm bút danh: Nam Cao.\n\nÔng xuất thân từ một gia đình Công giáo ở vùng nông thôn. Cha của ông là ông Trần Hữu Huệ, làm và kinh doanh nghề mộc, có thời gian làm nghề thầy lang trong làng. Mẹ của ông là bà Trần Thị Minh, vừa là nội trợ, làm vườn, làm ruộng và dệt vải.\n\nThuở nhỏ, Nam Cao đi học sơ học ở trường làng. Đến cấp tiểu học và bậc trung học, gia đình gửi ông xuống Nam Định học ở trường Cửa Bắc rồi trường Thành Chung. Năm 1934 học xong bậc trung học, nhưng bị ngã rồi đau ốm nên chưa thi lấy bằng Thành Chung. Đầu năm 1935 cưới vợ, Trần Thị Sen, người cùng làng.\n\nNăm 1941, tập truyện đầu tay Đôi lứa xứng đôi, tên trong bản thảo là Cái lò gạch cũ, với bút danh Nam Cao do Nhà xuất bản Đời mới Hà Nội ấn hành được đón nhận như là một hiện tượng văn học thời đó. Sau này khi in lại (1945), Nam Cao đã đổi tên là Chí Phèo.\n\nNam Cao không tập trung miêu tả ngoại cảnh hay hành động bên ngoài mà đi sâu vào thể giới nội tâm phức tạp. Ông đặc biệt xuất sắc trong việc miêu tả những giằng xé tinh thần, sự đấu tranh giữa cái thiện và cái ác, lòng vị tha và sự ích kỷ. Ông hay sử dụng hình thức độc thoại nội tâm và độc thoại nửa trực tiếp, làm cho ranh giới giữa lời người kể chuyện và lời nhân vật mở đi, tạo độ sâu miêu tả tâm lý.\n\nNguồn cảm hứng: Nam Cao thường khai thác những chuyện nhỏ nhặt, xoay quanh miếng ăn, gánh nặng gieo neo của đời sống thường nhật. Từ cái nhỏ nhặt, ông nâng lên thành những vấn đề triết lý nhân sinh sâu sắc: bi kịch tha hóa, bi kịch bị từ chối quyền làm người, sự kiềm hãm của hoài bão nghệ thuật trước gánh nặng cơm áo gạo tiền."
+    },
+    "luu-trong-lu": {
+      "name": "Lưu Trọng Lư",
+      "years": "1911 - 1991",
+      "content": "Lưu Trọng Lư sinh ngày 19 tháng 6 năm 1911 tại làng Cao Lao Hạ, xã Bắc Trạch, tỉnh Quảng Trị. Ông sinh trưởng trong một gia đình quan lại xuất thân nho học. Thuở nhỏ, ông học trường tỉnh, rồi học ở Huế và Hà Nội. Sau đó, ông bỏ học đi dạy tư, làm văn và làm báo để kiếm sống.\n\nNăm 1932, ông là một trong những nhà thơ khởi xướng và tích cực cổ vũ cho phong trào Thơ mới. Năm 1941, ông và thơ của ông được Hoài Thanh và Hoài Chân giới thiệu trong quyển Thi nhân Việt Nam.\n\nLưu Trọng Lư không theo đuổi lối thơ Tây hóa như Xuân Diệu hay nỗi sầu vạn cổ hệt Huy Cận. Ngược lại, ông để lại dấu ấn trong lòng người thưởng thức bởi một hồn thơ vừa hiện đại, mới mẻ nhưng cũng rất mực trong trẻo, thi vị. Ở bất kỳ giai đoạn nào của lịch sử, ngòi bút Lưu Trọng Lư cũng đều hướng đến cái đẹp cùng những rung động khó diễn tả thành lời nơi nội tâm con người."
+    },
+    "to-huu": {
+      "name": "Tố Hữu",
+      "years": "1920 - 2002",
+      "content": "Tố Hữu tên khai sinh là Nguyễn Kim Thành. Ông sinh ngày 4 tháng 10 năm 1920 tại Thừa Thiên (nay là thành phố Huế). Cha ông là một nhà nho nghèo, thích thơ, thích sưu tập ca dao tục ngữ. Mẹ ông cũng là con của một nhà nho nghèo nhưng thuộc nhiều ca dao dân ca Huế.\n\nNăm 13 tuổi, ông vào trường Quốc học Huế. Tại đây, được trực tiếp tiếp xúc với tư tưởng của Karl Marx, Friedrich Engels, Vladimir Ilyich Lenin... Nguyễn Kim Thành sớm tiếp cận với lý tưởng cộng sản. Năm 1936, ông gia nhập Đoàn thanh niên Dân chủ Đông Dương.\n\nTheo lời Tố Hữu tự giải thích về bút danh của mình thì năm 1938, ông sang Lào thăm một người anh. Ở đây ông gặp một cụ đồ người Quảng Bình. Cụ đồ đã đặt cho ông bút danh \"Tố Hữu\", lấy từ câu nói của Đỗ Thị \"Ngô nhi tố hữu đại chí\". Tố Hữu có nghĩa là \"con tôi chỉ có cái chí lớn lao\". Tố Hữu nhận tên gọi này nhưng hiểu theo nghĩa là \"người bạn trong trắng\".\n\nỞ Tố Hữu có sự thống nhất đẹp đẽ giữa cuộc đời cách mạng và cuộc đời thơ, giữa lý tưởng trong trái tim và những câu thơ trên đầu bút. Ông được coi là lá cờ đầu của thơ ca cách mạng và kháng chiến, được tôn vinh là \"nhà thơ của cách mạng\", \"nhà thơ của nhân dân\"."
+    },
+    "doan-van-cu": {
+      "name": "Đoàn Văn Cừ",
+      "years": "1913 - 2004",
+      "content": "Đoàn Văn Cừ sinh ngày 25 tháng 11 năm 1913 tại thôn Đô Quan, xã Nam Lợi, huyện Nam Trực, tỉnh Nam Định (nay là xã Nam Ninh, tỉnh Ninh Bình) trong một gia đình nông dân.\n\nTrước Cách mạng tháng Tám, Đoàn Văn Cừ dạy học, ông đã tham gia phong trào công nhân Nhà máy sợi Nam Định năm 1936. Sau Cách mạng tháng Tám, ông tham gia Hội đồng Nhân dân tỉnh Nam Định (1946). Năm 1948, ông tòng quân, tham gia kháng chiến chống Pháp và làm công tác văn nghệ, phiên dịch, công tác địch vận Liên khu III.\n\nĐoàn Văn Cừ xuất hiện trong Phong trào Thơ mới (1932 - 1945) và viết về thôn quê với bút pháp rất riêng: tả chân. Thơ \"tả chân\" của Đoàn Văn Cừ luôn rực rỡ sắc màu và hình ảnh, đặc biệt cảnh sắc trong thơ ông luôn luôn vận động, giàu sức sống. Những cảnh quê như Đám hội, Đám cưới mùa xuân,... và đặc biệt là phiên Chợ Tết nông thôn của ông vẫn sẽ còn mãi với thời gian."
+    },
+    "nguyen-du": {
+      "name": "Nguyễn Du",
+      "years": "1765 - 1820",
+      "content": "Theo một bản gia phả của dòng họ Nguyễn ở huyện Nghi Xuân, Nguyễn Du sinh ngày 23 tháng 11 năm Ất Dậu (tức ngày 3 tháng 1 năm 1766 theo lịch Gregory; một số tài liệu ghi 1765) tại xã Tiên Điền, tỉnh Hà Tĩnh.\n\nCha của Nguyễn Du là Nguyễn Nghiễm (1708 - 1775), sinh ở làng Tiên Điền, huyện Nghi Xuân, Hà Tĩnh, đậu Nhị giáp tiến sĩ, làm quan đến chức Đại Tư đồ (Tể tướng), tước Xuân Quận công. Mẹ là bà Trần Thị Tần, con gái một người làm chức Câu kế. Bà Tần quê ở làng Hoa Thiều, huyện Tiên Du, xứ Kinh Bắc, nay thuộc thành phố Bắc Ninh.\n\nQua các tác phẩm của Nguyễn Du, nét nổi bật chính là sự đề cao xúc cảm. Nguyễn Du là nhà thơ có học vấn uyên bác, nắm vững nhiều thể thơ của Trung Quốc như: ngũ ngôn cổ thi, ngũ ngôn luật, thất ngôn luật, ca, hành... nên ở thể thơ nào, ông cũng có bài xuất sắc. Đặc biệt hơn cả là tài làm thơ bằng chữ Nôm của ông, mà đỉnh cao là Truyện Kiều, đã cho thấy thể thơ lục bát có khả năng chuyển tải nội dung tự sự và trữ tình to lớn trong thể loại truyện thơ."
+    },
+    "thach-lam": {
+      "name": "Thạch Lam",
+      "years": "1910 - 1942",
+      "content": "Thạch Lam sinh ngày 7 tháng 7 năm 1910 tại Thái Hà Ấp, huyện Hoàn Long (nay là phường Đống Đa), thành phố Hà Nội, quê gốc tại phường Hội An, thành phố Đà Nẵng trong một gia đình công chức gốc quan lại, thuở nhỏ chủ yếu sống ở quê ngoại, phố huyện Cẩm Giàng, tỉnh Hải Dương. Thạch Lam là người con thứ 6 trong gia đình 7 người con (6 trai, 1 gái). Nguyên tên ban đầu của ông do cha mẹ đặt là Nguyễn Tường Vinh. Đến năm Thạch Lam 15 tuổi, thấy mình học chậm, cần tăng thêm tuổi để học \"nhảy\" 4 năm, ông làm lại khai sinh thành Nguyễn Tường Lân.\n\nNăm 1933, Thạch Lam lập gia đình và về ở trong một căn nhà đơn sơ nhưng ấm cúng tại làng Yên Phụ (Hà Nội). Cũng trong năm này, anh trai Thạch Lam là Nhất Linh thành lập nhóm “Tự lực văn đoàn”.\n\nThạch Lam đến với văn chương như mang theo sứ mệnh hòa hợp giữa thơ và văn xuôi, giữa hiện thực và lãng mạn. Khác với các tác giả khác trong nhóm “Tự lực văn đoàn” văn phong của Thạch Lam có vẻ như “chảy” riêng biệt một dòng rất nhẹ nhàng và tinh tế. Mỗi truyện ngắn của Thạch Lam như một bài thơ về những cuộc đời với cốt truyện không có gì đặc biệt, thậm chí đôi khi đơn giản đến như không có và những nhân vật với thân phận nhỏ bé, cô đơn, và bất hạnh, gợi sự thương cảm xót xa sâu sắc của tình người.\n\nChính nhà văn Nguyễn Tuân – một bậc thầy ngôn ngữ văn học – đã từng thừa nhận: “Thạch Lam đã làm cho tiếng Việt gọn ghẽ đi, co duỗi thêm, mềm mại và tươi tắn hơn. Thạch Lam có đem sinh sắc vào tiếng ta”."
+    },
+    "nguyen-binh": {
+      "name": "Nguyễn Bính",
+      "years": "1918 - 1966",
+      "content": "Nguyễn Bính sinh ngày 13 tháng 2 năm 1918 tại làng Thiện Vịnh, xã Cộng Hòa, huyện Vụ Bản, tỉnh Nam Định (nay là xã Minh Tân, tỉnh Ninh Bình). Cha Nguyễn Bính tên là Nguyễn Đạo Bình, làm nghề dạy học, còn mẹ ông là bà Bùi Thị Miện.\n\nNăm 13 tuổi Nguyễn Bính được giải nhất trong cuộc thi hát trống quân đầu xuân ở hội làng với vốn sáng tác. Bài thơ của ông được đăng báo đầu tiên là bài Cô hái mơ. Năm 1937 Nguyễn Bính gửi tập thơ Tâm hồn tôi tới dự thi và đã được giải khuyến khích của nhóm Tự lực văn đoàn. Từ năm 1940, Nguyễn Bính bắt đầu nổi tiếng với số lượng thơ khá dày, đề tài phong phú, trong đó chủ yếu là thơ tình.\n\nNguyễn Bính không chỉ giỏi làm thơ lục bát về “hương đồng gió nội”, mà ông còn có tài dịch thơ Đường rất chuyên nghiệp. Trong quá trình hiện đại hóa thi ca Việt Nam từ đầu thế kỷ 20 đã xuất hiện cuộc tranh luận gay gắt giữa hai quan điểm: Một bên chủ trương cách tân triệt để để làm cho thơ mới lạ. Một bên chủ trương giữ lấy cốt cách, cái hồn dân tộc cho thơ. Nguyễn Bính đã âm thầm góp tiếng nói tranh luận của mình, không phải đao to búa lớn, mà bằng một bài thơ lục bát nhẹ nhàng Chân quê. Quan điểm sáng tác này theo suốt cuộc đời thơ tác giả và giúp Nguyễn Bính định hình một phong cách sáng tác độc đáo trong phong trào Thơ mới 1932-1945."
+    },
+    "dan-gian": {
+      "name": "Tác giả Dân gian",
+      "years": "Khuyết danh",
+      "content": "Tác giả dân gian là tập thể những người lao động, được truyền miệng qua nhiều thế hệ. Các tác phẩm như Ca dao, Chèo, Tuồng thường không ghi nhận tác giả cá nhân mà được bồi đắp bởi hàng trăm thế hệ nghệ nhân. Đây là di sản văn hóa vô giá của dân tộc, phản ánh đời sống tinh thần phong phú của nhân dân.\n\nCa dao là ngọn nguồn tâm hồn, là tiếng hát tự tình ngọt ngào và là tấm gương phản chiếu trọn vẹn đời sống tinh thần của nhân dân Việt Nam qua bao thế hệ. Trải qua hàng ngàn năm lịch sử, ca dao không chỉ đơn thuần là những vần thơ dân gian truyền miệng mà đã trở thành di sản nghệ thuật vô giá, đúc kết những triết lý nhân sinh, tình yêu quê hương đất nước, tình cảm gia đình và đạo lý làm người sâu sắc.\n\nTheo các nhà nghiên cứu văn học dân gian, \"Ca\" là bài hát có giai điệu, \"Dao\" là bài hát ngắn không có chương khúc. Ca dao là thể loại văn học dân gian kết hợp giữa lời thơ trữ tình và âm điệu diễn xướng, phản ảnh tâm tư, tình cảm và thế giới quan của người lao động bình dân. Ca dao nảy sinh từ chính đời sống lao động sản xuất, sinh hoạt làng quê và các dịp lễ hội truyền thống của người Việt cổ."
+    },
+    "ho-xuan-huong": {
+      "name": "Hồ Xuân Hương",
+      "years": "1772 - 1822",
+      "content": "Hồ Xuân Hương là một nữ thi sĩ người Việt Nam sống ở giai đoạn cuối thế kỷ XVIII và đầu thế kỷ XIX, mà hiện tại vẫn khiến nhiều học giả tranh cãi. Bà được nhà thơ hiện đại Xuân Diệu mệnh danh là Bà chúa thơ Nôm. Năm 2021, bà cùng Nguyễn Đình Chiểu là hai nhà thơ của Việt Nam được UNESCO vinh danh là Danh nhân văn hóa thế giới.\n\nCác sáng của bà chủ yếu là thơ và đa số đều được viết bằng chữ Nôm. Hầu hết thi ca Hồ Xuân Hương theo dòng chảy chung đã thoát được các quan niệm sáng tác cổ hữu vốn đề cao niêm luật chặt chẽ để bộc lộ được tiếng nói của thời đại mình, có nhiều người cho rằng đặc sắc của thơ bà là \"thanh thanh tục tục\".\n\nHọc giới nhất quán cho rằng Hồ Xuân Hương sinh vào năm 1772, theo học giả John Balaban thì bà được sinh ra ở phường Khán Xuân (nay ở khu vực vườn bách thảo Hà Nội). Theo Giai nhân di mặc, Hồ Xuân Hương là ái nữ của Sinh đô Hồ Phi Diễn, người hương Quỳnh Đôi, huyện Quỳnh Lưu, trấn Nghệ An. \n\nTrong số 6 Danh nhân Việt Nam được UNESCO vinh danh gồm: Nguyễn Trãi năm 1980, Chủ tịch Hồ Chí Minh năm 1990, Nguyễn Du năm 2015, Chu Văn An năm 2019, Hồ Xuân Hương và Nguyễn Đình Chiểu năm 2021 thì duy nhất chỉ có Danh nhân Hồ Xuân Hương là nữ. Bà là một trong những danh nhân văn hóa có đóng góp lớn cho văn học Việt Nam, không chỉ bởi tài năng thơ ca xuất sắc mà còn bởi những tư tưởng tiến bộ, mạnh mẽ trong việc đấu tranh cho quyền lợi và tự do của phụ nữ trong xã hội phong kiến."
+    },
+    "ba-huyen-thanh-quan": {
+      "name": "Bà huyện Thanh Quan",
+      "years": "1805 - 1848",
+      "content": "Bà huyện Thanh Quan tên thật là Nguyễn Thị Hinh. Bà sinh năm 1805 tại làng Nghi Tàm, tổng Thượng, huyện Vĩnh Thuận, phủ Hoài Đức, Bắc Thành (nay là phố Nghi Tàm, phường Tây Hồ, thành phố Hà Nội). Một số tài liệu cho biết tên thật của bà là Nguyễn Thị Hinh. Cha bà là Nguyễn Lý (1755-1837), đỗ thủ khoa năm 1783, đời vua Lê Hiến Tông.\n\nBà là học trò của danh sĩ Phạm Quý Thích (1760-1825), và là vợ của Lưu Nghi (1804-1847), hiệu là Ái Lan, người làng Nguyệt Áng, huyện Thanh Trì, Hà Nội. Chồng bà đỗ cử nhân năm 1821, từng làm tri huyện Thanh Quan (nay là một phần huyện Đông Hưng và huyện Thái Thụy của tỉnh Thái Bình), nên người ta thường gọi bà là Bà Huyện Thanh Quan.\n\nThơ của Bà Huyện Thanh Quan thường viết về cảnh vật, thiên nhiên, con người, thể hiện nỗi hoài niệm về quá khứ và niềm thương cảm trước thời cuộc đối thay. Giọng thơ trang nhã, cổ điển mà thanh thoát, dùng ngôn ngữ Nôm tình luyện, vừa mềm mại vừa sâu sắc. Mỗi vần thơ của bà là một bức tranh thủy mặc thấm đẫm tâm tình — tĩnh lặng, u hoài mà sang trọng, mang đậm cốt cách Tràng An.\n\nGiáo sư Dương Quảng Hàm từng nhận xét: “Những bài thơ Nôm của bà phần nhiều là tả cảnh, tỏ tình, nhưng bài nào cũng hay và tỏ ra bà là một người có tính tình đoan chính, thanh tao, một người có học thức thường nghĩ ngợi đến nhà, đến nước. Lời văn rất trang nhã, điêu luyện”."
+    },
+    "khanh-hoai": {
+      "name": "Khánh Hoài",
+      "years": "1937 - nay",
+      "content": "Khánh Hoài tên Khai sinh là Đỗ Văn Xuyền, sinh ngày 10 tháng 7 năm 1937. Quê gốc: xã Đông Kinh, Đông Hưng, Thái Bình. Nơi ở hiện nay: thành phố Việt Trì. Tốt nghiệp Đại học sư phạm (khoa sinh ngữ). Hội viên Hội Nhà văn Việt Nam (1981). Khánh Hoài có tên bút danh khác là Bảo Châu.\n\nKhánh Hoài sinh ra, lớn học, học tiểu học và trung học tại Thái Bình, Hà Nội và Hải Phòng. Trong quá trình học ông đã tham gia nhiều hoạt động bí mật trong phòng trào học sinh, sinh viên. Từ năm 1956-1959 ông theo học tại trường Đại Học Sư Phạm Hà Nội. Sau khi tốt nghiệp ông đã tham gia vào hội nhà văn Việt Nam vào năm 1981. Từ năm 1959-1987 ông làm hiệu trưởng nhiều trường phổ thông tại Vĩnh Phú. Từ 1988 cho đến nay, ông làm Chi Hội trưởng chi hội Văn nghệ Việt Trì, Trưởng Ban Văn hóa -- Xã hội và Phó chủ nhiệm thường trực ủy ban bảo vệ chăm sóc trẻ em thành phố Việt Trì, Phú Thọ.\n\nVới lời văn tự sự, biểu cảm, tác giả đã nói lên được những hình ảnh chân thực, những vấn đề trong xã hội lúc bấy giờ thông qua các tác phẩm như: Trận chung kết (truyện dài, xuất bản năm 1975), Những chuyện bất ngờ (xuất bản năm 1978), Cuộc chia tay của những con búp bê (truyện tự sự xuất bản năm 1992), Chuyện ở lớp, chuyện ở nhà (hay Băng ngũ hổ xuất bản năm 1993-1994)."
+    },
+    "nguyen-binh-khiem": {
+      "name": "Nguyễn Bỉnh Khiêm",
+      "years": "1491 - 1585",
+      "content": "Nguyễn Bỉnh Khiêm (13 tháng 5 năm 1491 – 28 tháng 11 năm 1585), tên huý là Văn Đạt, tự là Hanh Phủ, hiệu là Bạch Vân am cư sĩ, được các môn sinh tôn là Tuyết Giang phu tử, là một trong những nhân vật có ảnh hưởng nhất của lịch sử cũng như văn hóa Việt Nam trong thế kỷ 16. Ông được biết đến nhiều vì tư cách đạo đức, tài thơ văn của một nhà giáo có tiếng thời kỳ Nam – Bắc triều (Lê – Mạc phân tranh) cũng như tài tiên tri các tiên triển của lịch sử Việt Nam.\n\nSau khi đỗ Trạng nguyên khoa thi Ất Mùi (1535) và làm quan dưới triều Mạc, ông được phong tước \"Trình Tuyên hầu\" rồi thăng tới \"Trình Quốc công\" mà dân gian quen gọi ông là Trạng Trình. Ngoại trừ quãng thời gian dưới 10 năm thời thơ ẩu có thể xem là bình yên cuối triều Lê Thánh Tông, Nguyễn Bỉnh Khiêm đã sống gần trọn thế kỷ 16, một thế kỷ nhiều biến chuyển mang tầm ảnh hưởng chưa từng có trước đó trong lịch sử dân tộc, mà ông vừa là nhân chứng vừa là nhân tố quan trọng tạo nên chúng.\n\nLà một người xuất thân từ tầng lớp trí thức quan lại nhưng cả cuộc đời Nguyễn Bỉnh Khiêm chưa bao giờ coi việc làm quan là lý tưởng cao nhất của sự nghiệp, cũng như là một nhà nhân đạo chủ nghĩa ông luôn đề cao tư tưởng thân dân trong sách lược trị nước."
+    },
+    "nguyen-trai": {
+      "name": "Nguyễn Trãi",
+      "years": "1380 - 1442",
+      "content": "Nguyễn Trãi là anh hùng dân tộc, danh nhân văn hóa thế giới. Ông là một nhà chính trị, quân sự tài ba, đồng thời là một nhà thơ lớn. Thơ ông thể hiện tư tưởng nhân nghĩa sâu sắc và lòng yêu nước thiết tha. Ông là tác giả của nhiều tác phẩm nổi tiếng như Bình Ngô đại cáo, Quốc âm thi tập."
+    },
+    "thanh-hai": {
+      "name": "Thanh Hải",
+      "years": "1930 - 1980",
+      "content": "Thanh Hải (1930 – 1980), tên khai sinh là Phạm Bá Ngoãn, là một trong những cây bút tiên phong của nền văn học cách mạng miền Nam thời kỳ chống Mỹ. Cuộc đời ông là một bản hùng ca thầm lặng về ý chí bám trụ kiên cường, và di sản ông để lại là những văn thơ đôn hậu, chân chất nhưng có sức lay động mãnh liệt.\n\nThanh Hải sinh ngày 04/11/1930 tại xã Phong Bình, huyện Phong Điền, tỉnh Thừa Thiên Huế. Cha ông là một thầy giáo làng dạy chữ Nho nghiêm khắc, mẹ là một người nông dân hiền lành, tằn táo. Dù gia cảnh nghèo khó, cậu bé Ngoãn được thừa hưởng tình yêu văn chương từ cha và những làn điệu dân ca, hò vè từ mẹ. Xứ Huế với dòng sông Hương và những câu Nam ai, Nam bình đã sớm bồi đắp cho ông một tâm hồn nhạy cảm, yêu quê hương tha thiết.\n\nSau Hiệp định Genève (1954), ông tình nguyện không tập kết ra Bắc mà xin ở lại miền Nam hoạt động bí mật. Bút danh Thanh Hải (biển xanh) bắt đầu được sử dụng từ đây với khát vọng về một ngày hòa bình. Thời kỳ \"Tổ cộng, diệt cộng\" (1954 - 1959): Thanh Hải làm cán bộ Tuyên huấn Tỉnh ủy Thừa Thiên. Ông phải sống chui lùi trong các hầm bí mật dưới sự truy lùng gắt gao.\n\nCuối năm 1980, khi nằm trên giường bệnh Bệnh viện Bạch Mai (Hà Nội), cơ thể suy kiệt và đau đớn tột cùng, ông vẫn giữ tinh thần lạc quan để sáng tác kiệt tác Mùa xuân nho nhỏ. Ngày 15/12/1980, Thanh Hải trút hơi thở cuối cùng ở tuổi 50."
+    },
+    "pham-tien-duat": {
+      "name": "Phạm Tiến Duật",
+      "years": "1941 - 2007",
+      "content": "Phạm Tiến Duật (1941 – 2007) không chỉ là một nhà thơ, ông còn là biểu tượng rực rỡ nhất của thế hệ thanh niên Việt Nam thời kỳ chống Mỹ cứu nước. Thơ ông là nhịp đập của tuyến đường Hồ Chí Minh, là tiếng cười ngang tàng vượt lên trên bom đạn và cái chết.\n\nPhạm Tiến Duật sinh ngày 14/01/1941 tại huyện Thanh Ba, tỉnh Phú Thọ, trong một gia đình nhà giáo giàu truyền thống Nho học. Cha ông từng dạy chữ Hán và tiếng Pháp, giúp ông sớm có nền tảng văn hóa vững chắc và tình yêu sâu sắc với văn chương.\n\nNăm 1964, bước ngoặt lớn nhất cuộc đời đến khi ông vừa tốt nghiệp Cử nhân khoa Ngữ văn, Trường Đại học Sư phạm Hà Nội. Giữa lúc đất nước đang sục sôi đánh Mỹ, thay vì chọn một bục giảng bình yên ở miền Bắc, chàng thanh niên 23 tuổi đã gác lại phần bảng, viết đơn tình nguyện nhập ngũ. Quyết định lịch sử ấy đã đưa thi ca Việt Nam đến với một tài năng kiệt xuất.\n\nGia nhập Binh đoàn 559 (Binh đoàn Trường Sơn), Phạm Tiến Duật sống, hành quân và chiến đấu suốt 14 năm ròng rã. Ông làm thơ trên thùng xe tải, dưới giao thông hào, bên bếp Hoàng Cầm. Ông sống cùng những người lính lái xe, lính công binh, nữ thanh niên xung phong và trở thành \"người thư ký trung thành\" của cuộc chiến."
+    },
+    "nguyen-minh-chau": {
+      "name": "Nguyễn Minh Châu",
+      "years": "1930 - 1989",
+      "content": "Nguyễn Minh Châu (1930 – 1989) sinh ra tại làng Văn Tình, xã Sơn Hải, huyện Quỳnh Lưu, tỉnh Nghệ An. Tuổi thơ của ông gắn liền với một vùng quê miền Trung nghèo khó, cần cù nhưng giàu truyền thống hiếu học. Thuở nhỏ, ông theo học tại trường Quốc học Huế, sau đó là trường chuyên khoa Huỳnh Thúc Kháng (Hà Tĩnh).\n\nSinh thời, bạn bè thường nhận xét Nguyễn Minh Châu có vẻ ngoài khắc khổ, thâm trầm, ít nói và hay bền lẽn. Ông tự nhận mình là người \"hay e ngại và rụt rè\". Nhà nghiên cứu Vương Trí Nhàn từng miêu tả ông thường đi lại \"như một người mộng du\", bởi ẩn sâu dưới vẻ ngoài chậm chạp, lầm lì ấy là một tâm hồn luôn dậy sóng, liên tục quan sát và suy nghiệm về con người.\n\nNăm 1950, ông tình nguyện gia nhập quân đội, theo học tại Trường Sĩ quan Lục quân Trần Quốc Tuấn. Quá trình quân ngũ đưa ông đi khắp các nẻo đường chiến dịch từ thời chống Pháp sang chống Mỹ. Năm 1962, ông được điều về Phòng Văn nghệ Quân đội (sau là Tạp chí Văn nghệ Quân đội). Từ đây, ông bám sát các chiến trường khốc liệt nhất như Đường 9 – Khe Sanh, Bình Trị Thiên, không chỉ với tư cách một người lính cầm súng mà với sứ mệnh của một nhà văn ghi chép lại hiện thực máu lửa."
+    }
+  },
+  "works": {
+    "nhung-soi-to-long": {
+      "title": "Những sợi tơ lòng",
+      "content": "Tác phẩm đánh dấu sự trưởng thành trong tư duy nghệ thuật của Chế Lan Viên, nơi ông bộc lộ những trăn trở về cõi sống, cõi chết và sự cô đơn tuyệt đối của kiếp người. Thơ ông giai đoạn này vẫn giữ được nét ma mị nhưng đã bắt đầu hướng vào những suy tư triết lý sâu sắc hơn."
+    },
+    "doi-thua": {
+      "title": "Đời thừa",
+      "content": "Đời thừa là truyện về một nhà văn nghèo bất đắc dĩ. Tác phẩm xoay quanh cuộc sống của Hộ - một người luôn hướng tới sự toàn mỹ trong việc sáng tạo nghệ thuật và luôn cố gắng giữ lấy lý tưởng sống của mình.\n\nNhà văn Hộ là nhân vật đại diện cho những người trí thức nghèo trong xã hội đương thời, họ đều có khát khao, hoài bão, lý tưởng muốn thực hiện nhưng đều vì chuyện cơm áo gạo tiền mà đánh rơi ước vọng của chính mình, trở thành kiểu người mà bản thân ghét nhất. Ở trong tâm khảm của Hộ hay cũng chính là thế hệ 1930 khi đó đều khắc sâu niềm khao khát được làm đầy trái tim, khao khát được sống mạnh mẽ, sâu sắc, chói sáng, vượt lên trên cái bằng phẳng tầm thường, sự ghê sợ điệu sống mòn mỏi, đơn điệu, vô vị…\n\nRõ ràng, đề tài về những người \"lao động áo trắng\" này thực không mới, Nguyễn Tuân, Tản Đà,...đều đã viết về tình cảnh buồn thảm của kẻ cầm bút, hay chính Xuân Diệu đã phải thốt lên: “Nỗi đời cơ cực đang giơ vuốt - Cơm áo không đùa với khách thơ”. Bên cạnh Sống mòn hay Giăng sáng, Đời thừa là những nét bút chân thực và sắc sảo của Nam Cao góp vào bức tranh về tầng lớp trí thức tiểu tư sản thời bấy giờ, làm cho hình ảnh vừa bi vừa hài của lớp người này trở nên đầy ấm áp. Ông đã không thổi vị hoá nỗi buồn của những người tiểu tư sản mà viết chúng bằng màu và nước mắt của một người thấm thía được những trăn trở băn khoăn của nghề viết, hiểu đến sâu sắc sự chua xót và cay nghiệt của cuộc đời với người cầm bút."
+    },
+    "tieng-thu": {
+      "title": "Tiếng thu",
+      "content": "Tiếng thu là bài thơ tiêu biểu nhất cho phong cách thơ Lưu Trọng Lư, được viết theo thể thơ 5 chữ. Tác phẩm khắc họa bức tranh mùa thu yên tĩnh, buồn man mác với hình ảnh 'con nai vàng ngơ ngác'. Bài thơ không kể chuyện mà chỉ gợi lên một không gian, một tâm trạng, một nỗi buồn khó gọi tên.\n\nNgay từ câu mở đầu, tác giả đã khơi gợi cảm giác về một mùa thu trầm lắng, với ánh trăng mờ và những thanh âm thổn thức vang lên trong không gian. \"Thổn thức\" -- một từ đầy sức gợi, như tiếng khóc khẽ của đất trời, như những nỗi niềm chất chứa không thể giãi bày. Mùa thu trong thơ Lưu Trọng Lư không chỉ là cảnh vật, mà còn là tâm trạng. Đó không phải là mùa thu rực rỡ với sắc vàng tươi sáng, mà là mùa thu buồn -- mùa của chia ly, của những tiếc nuối không thể nói thành lời.\n\nHình ảnh \"con nai vàng ngơ ngác\" là một trong những câu thơ đẹp nhất và cũng là câu thơ nổi tiếng nhất trong Tiếng thu. Chỉ với một hình ảnh này, tác giả đã vẽ nên cả một bức tranh mùa thu: khu rừng tĩnh lặng, lá vàng rơi xào xạc, và một con nai đơn độc, bước đi giữa đất trời vắng lặng. Nhưng con nai không chỉ là một hình ảnh thiên nhiên đơn thuần. Nó còn là biểu tượng của sự lạc lõng, của nỗi buồn xa xăm."
+    },
+    "ngon-lua-hong-son": {
+      "title": "Ngọn lửa Hồng Sơn",
+      "content": "Là vở tuồng cổ mang đậm tính bi hùng, ca ngợi tinh thần trung quân ái quốc và đạo lý làm người. Tác phẩm khắc họa những giằng xé nội tâm của nhân vật trước biến cố lịch sử, khi phải đứng giữa lựa chọn tình thân và lòng trung với đất nước."
+    },
+    "day-ma-di": {
+      "title": "Dậy mà đi",
+      "content": "Dậy mà đi là một trong những bài thơ tiêu biểu của Tố Hữu, khơi dậy tinh thần đấu tranh, ý chí kiên cường và niềm lạc quan cách mạng. Nhan đề và cũng là điệp khúc xuyên suốt bài thơ -- \"Dậy mà đi!\" -- vang lên như một mệnh lệnh hành động. Giữa đêm trường nô lệ, khi người dân bị bần cùng hóa và kìm kẹp bởi xích xiềng thực dân, phong kiến, Tố Hữu không chọn cách than vãn, bi lụy. Ông dùng từ ngữ mạnh mẽ, dứt khoát để đập tan sự trì trệ, cam chịu. \"Dậy\" là sự thức tỉnh về nhận thức, là việc rũ bỏ tư thế quỳ gối chịu nhục. \"Đi\" là hành động dấn thân, tiến về phía trước.\n\nGiá trị cốt lõi làm nên sức sống lâu bền của bài thơ nằm ở hai câu thơ mang tính đúc kết triết lý: \"Ai chiến thắng mà không hề chiến bại / Ai nên khôn mà chẳng dại đôi lần?\". Bằng thể thức câu hỏi tu từ mang tính khẳng định tuyệt đối, Tố Hữu đã chỉ ra một quy luật khách quan của cuộc sống: con đường dẫn đến thành công không bao giờ là một đường thẳng bằng phẳng. \"Chiến bại\" và \"dại\" là những va vấp tất yếu, là cái giá phải trả trên hành trình hướng tới \"chiến thắng\" và \"nên khôn\"."
+    },
+    "cho-tet": {
+      "title": "Chợ Tết",
+      "content": "Chợ Tết là một bức tranh sinh động về phiên chợ ngày xuân ở làng quê Bắc Bộ, với đầy đủ màu sắc, âm thanh và con người. Trước hết, cái tươi vui, sống động đã ngập tràn trong bức tranh thiên nhiên ngày xuân: \"Sương trắng rỏ đầu cành như giọt sữa, / Tia nắng tía nháy hoài trong ruộng lúa, / Núi uốn mình trong chiếc áo the xanh, / Đồi thoa son nằm dưới ánh bình minh.\". Nhà thơ đã vẽ ra khung cảnh rực rỡ, trong trẻo và tràn đầy sức sống của mùa xuân thông qua màu sắc, chuyển động và những hình ảnh đầy thú vị.\n\nCái tươi vui, sống động tiếp tục được lột tả và nhấn mạnh hơn trong bức tranh người người đi chợ Tết: \"Người các ấp tưng bừng ra chợ Tết.\". Từ láy \"tưng bừng\" diễn tả chính xác tinh thần hồ hởi, náo nhiệt, rộn ràng nơi người mua, kẻ bán từ khắp nơi đổ về. Cái tài của Đoàn Văn Cừ là dù miêu tả cảnh nhốn nháo, nhộn nhịp của phiên chợ với rất nhiều hoạt động nhưng không ai lẫn vào ai, ai cũng có nét riêng; từ đó, cảnh chợ hiện lên thật đông vui, nô nức nhưng không đơn điệu. Cùng là e thẹn, nhưng \"thằng bé\" khác với cô gái, cũng là mua bán nhưng mỗi người lại có nhộn nhịp khác nhau."
+    },
+    "truyen-kieu": {
+      "title": "Truyện Kiều",
+      "content": "Truyện Kiều gồm đúng 3.254 câu thơ lục bát. Tác phẩm được viết bằng thể thơ lục bát truyền thống của dân tộc. Nguyễn Du đã nâng thể thơ này lên đỉnh cao nghệ thuật rực rỡ, giàu nhạc điệu và cảm xúc. Về bố cục, tác phẩm được chia làm 3 phần chính logic: Phần 1: Gặp gỡ và đính ước. Phần 2: Gia biến và lưu lạc. Phần 3: Đoàn tụ.\n\nThúy Kiều là một thiếu nữ tài sắc vẹn toàn, sống cùng cha mẹ và hai em là Thúy Vân, Vương Quan. Trong hội Tảo mộ nhân tiết Thanh minh, Kiều gặp gỡ người học trò Kim Trọng phong nhã, hào hoa. Cả hai nảy sinh tình cảm sâu đậm và chủ động thề nguyện đính ước sắt son. Khi Kim Trọng phải về quê chịu tang chú, gia đình Kiều bất ngờ bị vu oan. Cha và em trai bị bắt bớ, đánh đập dã man bởi lũ quan lại tàn bạo. Để lấy tiền chuộc cha và em, Thúy Kiều đành trao duyên lại cho Thúy Vân rồi bán mình cho Mã Giám Sinh. Từ đây, nàng bước vào bi kịch mười lăm năm lưu lạc đầy tủi hờn.\n\nGiá trị hiện thực của tác phẩm là phản ánh hiện thực xã hội đương thời với bộ mặt tàn bạo của giai cấp thống trị. Sức mạnh của đồng tiền và số phận những con người bị áp bức, nạn nhân của đồng tiền, đặc biệt là người phụ nữ. Giá trị nhân đạo được thể hiện trước hết là sự trân trọng đề cao con người từ ngoại hình, phẩm chất, tài năng khát vọng đến ước mơ và tình yêu chân chính."
+    },
+    "duoi-bong-hoang-lan": {
+      "title": "Dưới bóng hoàng lan",
+      "content": "Trong hầu hết sáng tác của mình, Thạch Lam thường khắc họa hình ảnh làng quê Việt Nam một cách chân thực nhưng cũng rất thi vị. Đối với ông, đây chính là không gian để nhân vật bộc lộ và phơi trải cảm xúc, gom nhặt từng mảnh ký ức. Thế nhưng không gian trong văn chương của ông không phải xã hội bao la, rộng lớn mà được thu hẹp theo phạm vi cá nhân. Ở truyện ngắn Dưới bóng hoàng lan, văn sĩ tập trung khắc họa khung cảnh yên bình từ con đường về nhà đến khu vườn quen thuộc. Nơi này đã gắn bó với nhân vật chính là Thanh từ thuở tấm bé, chứng kiến hành trình trưởng thành của anh.\n\nTừ đầu tác phẩm, ngòi bút văn sĩ đã ưu ái khắc họa hình ảnh chốn thân thương ấy bằng những từ ngữ vô cùng đặc biệt. Ông không chỉ miêu tả màu sắc, âm thanh mà còn đưa cả hương thơm thoang thoảng, nồng nàn vào trang viết: “Chàng thấy mát hẳn cả người; trên con đường lát gạch bát tràng rêu phủ, những vòng ánh sáng lọt qua vòm cây xuống nhảy múa theo chiều gió. Một mùi lá tươi non phảng phất trong không khí.” – Dưới bóng hoàng lan.\n\nỞ các tác phẩm nổi bật như Cô hàng xén, Trở về hay Hai đứa trẻ, văn sĩ cũng đều tái hiện bức tranh quê hương gần với mùi hương hoặc thanh âm đặc trưng, khiến người đọc không khỏi xao xuyến. Mỗi khi miêu tả khung cảnh ấy, Thạch Lam khéo léo bộc lộ tài năng văn học cũng sự nhạy bén cũng như vốn từ phong phú. Từng trang viết đều nồng nàn chất thơ, khiến độc giả cảm tưởng như đang hòa mình vào tác phẩm và chiêm ngưỡng khu vườn đẹp đẽ đó. Tác giả đã đặt điểm nhấn thuật vào chàng trai Thanh mới về thăm quê. Sau khi tiến đến gian nhà, nhân vật chính lặng mình chứng kiến mọi thứ ở nơi từng chở che cả thời tấm bé vẫn vẹn nguyên, không chút thay đổi."
+    },
+    "tuong-tu": {
+      "title": "Tương tư",
+      "content": "Mở đầu tác phẩm, Nguyễn Bính không đi thẳng vào việc bộc lộ cảm xúc cá nhân mà mượn không gian làng quê và quy luật tự nhiên để hợp thức hóa nỗi nhớ thương trong lòng mình. Nguyễn Bính đã mở ra một không gian tương tư mang đậm phong vị ca dao qua hai địa danh hoán dụ \"thôn Đoài\" và \"thôn Đông\". Khoảng cách địa lý giữa hai thôn thực chất là cái cớ để thi sĩ đo đếm khoảng cách của lòng người. Bằng nghệ thuật nhân hóa tinh tế, \"thôn Đoài ngồi nhớ thôn Đông\", nỗi nhớ không còn là tâm trạng trừu tượng của một cá nhân mà đã thấm đẫm vào cảnh vật, khiến cho không gian làng quê như cũng biết thổn thức, mong chờ.\n\nTừ nỗi nhớ cụ thể, nhà thơ nâng lên thành một quy luật tất yếu mang tính phổ quát của vũ trụ và con người: \"Gió mưa là bệnh của giời / Tương tư là bệnh của tôi yêu nàng\". Nguyễn Bính đã đặt \"tương tư\" ngang hàng với \"gió mưa\" – những hiện tượng tự nhiên của đất trời. Cách so sánh vừa hóm hỉnh, vừa chứa đựng một sự khẳng định đắc chắc nịch: nếu trời đất không thể thiếu gió mưa thì con người khi yêu không thể không tương tư.\n\nỞ phần cuối bài thơ, nỗi tương tư vượt lên trên sự sâu muộn để hướng về một cái kết tư thời sáng, đó là khát vọng hòa hợp và ước nguyện gắn kết trăm năm theo phong tục truyền thống. Chàng trai tiếp tục gửi gắm nỗi lòng qua những câu hỏi tu từ hướng về tương lai: \"Bao giờ bến mới gặp đò / Hoa khuê các bướm giang hồ gặp nhau?\"."
+    },
+    "ca-dao-que-nha": {
+      "title": "Ca dao: Anh đi anh nhớ quê nhà",
+      "content": "Bài ca dao nói về nỗi nhớ quê hương của người đi xa. Nỗi nhớ không bắt đầu từ những điều to tát, mà lại gắn liền với những món ăn dân dã, những sinh hoạt đời thường nhất như 'canh rau muống', 'cà dầm tương'. Nỗi nhớ ấy tuy giản dị nhưng lại có sức lay động vô cùng sâu sắc.\n\nCa dao là tập đại thành của tình cảm gia đình người Việt. Đó là lòng biết ơn vô hạn đối với công ơn sinh thành của cha mẹ (\"Công cha như núi Thái Sơn / Nghĩa mẹ như nước trong nguồn chảy ra\"), tình cảm vợ chồng thủy chung gắn bó và tình anh em hòa thuận nghĩa tình."
+    },
+    "tu-tinh-2": {
+      "title": "Tự tình (II)",
+      "content": "Bức tranh tâm trạng của người phụ nữ trong bài thơ được hé mở ngay từ những nét vẽ đầu tiên về không gian và thời gian. Tác giả chọn thời điểm \"đêm khuya\" – khoảnh khắc thăm thẳm nhất của đất trời, khi vạn vật đã chìm vào giấc ngủ còn con người lại phải đối diện chân thực nhất với chính mình. Trong sự im ắng ấy, âm thanh tiếng trống canh từ xa vọng lại \"văng vẳng\" nhưng lại mang nhịp điệu \"dồn\" dập, khẩn trương. Tiếng trống không chỉ đơn thuần là công cụ đo đêm bước đi của thời gian, mà nó giống như một sự thúc bách, một lời cảnh báo lạnh lùng rằng tuổi xuân của người phụ nữ đang trôi đi một cách vô vị và không đợi chờ ai.\n\nĐể trốn chạy nỗi cô đơn và sự bẽ bàng của thực tại, nhân vật trữ tình đã tìm đến một phương thức quen thuộc của người xưa: mượn rượu giải sầu. Thế nhưng, câu thơ \"Chén rượu hương đưa say lại tỉnh\" lại mở ra một nghịch lý cay đắng. Nàng uống rượu để mong quên đi sự đời, nhưng hương rượu dịu nhẹ qua đi cũng là lúc ý thức tỉnh táo quay trở lại. Cụm từ \"say lại tỉnh\" gợi lên một cái vòng luẩn quẩn, bế tắc không lối thoát. Rượu không làm người ta quên đi đau khổ mà ngược lại, mỗi lần tỉnh giấc, nỗi đau và bi kịch của thực tế lại càng hiện hình sắc nét, nhức nhối và rõ ràng hơn bao giờ hết."
+    },
+    "thang-long-hoai-co": {
+      "title": "Thăng Long thành hoài cổ",
+      "content": "Bà Huyện Thanh Quan làm bài thơ này, sau năm 1805, khi mà Nguyễn Ánh lên ngôi, lấy hiệu Gia Long và định đô ở Huế. Từ đó, Thăng Long mất địa vị trung tâm của đất nước về chính trị và văn hóa. Chủ đề: Bài thơ tả cảnh ngụ tình. Cảnh thì tang thương. Tình thì hoài cổ. Phạm Thế Ngũ viết: Bài này nói lên nỗi đoạn trường của tác giả trước cảnh hoang tàn của cố đô đất Bắc.\n\nBài thơ mở đầu bằng một câu hỏi tu từ hướng thẳng lên trời xanh: \"Tạo hóa gây chi cuộc vận xoài\". Cụm từ \"cuộc vận xoài\" (hay vận xoay) là một cách nói hình tượng về quy luật biến thiên, đổi dời vô tình của vũ trụ. Nhà thơ không giấu nổi sự ngỡ ngàng xen lẫn oán trách trước bàn tay xoay vần của tạo hóa, vốn có thể biến những điều kiện còn rất thân thiết cát bụi, biến sự thịnh trị thành suy tàn chỉ trong một cái chớp mắt của lịch sử.\n\nTừ cái nhìn phổ quát về vũ trụ, tầm mắt của thi sĩ hạ xuống mặt đất để đối diện với thực tại phũ phàng: \"Đô thành cũ kỹ khách dừng tay\". Thăng Long – nơi từng là kinh đô rực rỡ, biểu tượng của uy quyền và văn hiến ngàn năm – giờ đây hiện lên với tính từ \"cũ kỹ\" đầy xót xa. Từ \"khách\" ở đây chính là đại từ tự xưng của tác giả. Trở về chốn kinh kỳ xưa với tư thế của một người con xứ Bắc, nhưng bà lại cảm thấy mình lạc lõng như một người khách lạ. Hành động \"dừng tay\" (dừng roi ngựa, dừng bước chân) chính là khoảng lặng của sự sững sờ, bàng hoàng khi chứng kiến cảnh tượng thực tại không còn ăn nhập với những ký ức vàng son trong tâm tưởng."
+    },
+    "cuoc-chia-tay-bup-be": {
+      "title": "Cuộc chia tay của những con búp bê",
+      "content": "Tác phẩm được viết và gửi tham dự cuộc thi viết về quyền trẻ em do Viện Khoa học Giáo dục kết hợp với Tổ chức Cứu trợ trẻ em Thụy Điển (Rát-đa Bác-nen) tổ chức vào năm 1992. Tác phẩm ra đời nhằm phản ánh một vấn đề nhức nhối của xã hội đương thời và hiện nay: nỗi đau, sự bất hạnh mà những đứa trẻ phải gánh chịu khi gia đình đổ vỡ, bố mẹ ly hôn. Thông qua câu chuyện về hai anh em Thành và Thủy, tác giả gửi đi thông điệp thức tỉnh người lớn hãy biết trân trọng và giữ gìn tổ ấm gia đình vì hạnh phúc của con trẻ.\n\nNỗi đau lớn nhất của tuổi thơ không nằm ở sự thiếu thốn về vật chất, mà nằm ở cảm giác hẫng hụt chênh vênh khi mái ấm gia đình khoảng trời bình yên duy nhất mà trẻ thơ tin tưởng đột ngột sụp đổ dưới chân mình. Trong truyện ngắn \"Cuộc chia tay của những con búp bê\", nhà văn Khánh Hoài đã chạm đến ngõ ngách sâu xót nhất của tâm hồn người đọc khi tái hiện trạng thái chênh vênh, mất phương hướng của hai anh em Thành và Thủy trước bi kịch ly hôn của cha mẹ.\n\nTừ khoảng hẫng chênh vênh trước thực tại nghiệt ngã, dòng cảm xúc của nhân vật lắng sâu thành sự tự thương , một nỗi xót xa âm thầm cho thân phận tủi gọt của bản thân và của người thân yêu, để rồi từ chính nỗi đau ấy, tấm lòng vị tha ngời sáng lại được thắp lên kỳ diệu. Tự thương bộc lộ qua từng cử chỉ, ánh mắt và giọt nước mắt nghẹn ngào của hai đứa trẻ: Thành cắn chặt môi để khỏi bật lên tiếng khóc nhưng nước mắt cứ tuôn ra như suối ướt đầm cả gối, còn Thủy thì hai bờ mi sưng mọng vì khóc suốt đêm, người run lên bần bật khi đối diện với giờ phút phân chia kỷ vật."
+    },
+    "ca-dao-ky-uc": {
+      "title": "Ca dao: Cây đa cũ, bến đò xưa",
+      "content": "Bài ca dao gợi lên khung cảnh làng quê quen thuộc với cây đa, bến nước, sân đình. Đó không chỉ là cảnh vật mà còn là chứng nhân của thời gian, của những cuộc đời. 'Cây đa cũ', 'bến đò xưa' là nơi lưu giữ những câu chuyện của làng quê, nhắc nhở về cội nguồn và giá trị truyền thống."
+    },
+    "ca-dao-tu-thuong": {
+      "title": "Ca dao: Thân em như tấm lụa đào",
+      "content": "Bài ca dao sử dụng hình ảnh ẩn dụ 'tấm lụa đào' để nói về vẻ đẹp và thân phận của người phụ nữ trong xã hội phong kiến. Họ đẹp đẽ, quý giá nhưng lại bị phụ thuộc, không có quyền tự quyết định cuộc đời mình. Sự 'tự thương' ở đây là sự xót xa cho thân phận bấp bênh, đồng thời khẳng định giá trị bản thân."
+    },
+    "nhan": {
+      "title": "Nhàn",
+      "content": "Nguyễn Bỉnh Khiêm dẫn dắt người đọc vào không gian sống mới của mình qua một bức tranh sinh hoạt đậm chất điền viên. Trở về với ruộng đồng sau những năm tháng bon chen nơi quan trường, nhà thơ tự hiện thân như một lão nông thực thụ: “Một mai, một cuốc, một cần câu”. Biện pháp điệp từ “một” kết hợp với các danh từ chỉ công cụ lao động quen thuộc như mai, cuốc, cần câu và nhịp thơ 2/2/3 chậm rãi đã tạo nên một tư thế chủ động, sẵn sàng và ung dung. Tác giả không hề cảm thấy tủi hổ hay khiên cưỡng khi phải làm lụng vất vả, ngược lại, mỗi công cụ đều là một người bạn giúp ông tìm lại sự tự do.\n\nTác giả nâng tầm lối sống cá nhân thành một quan niệm nhân sinh, một triết lý sống đầy trí tuệ. Bằng nghệ thuật đối lập đặc sắc, ông viết: “Ta dại, ta tìm nơi vắng vẻ / Người khôn, người đến chốn lao xao”. Cách nói ngược đầy ngụ ý kị tự nhận mình là “dại” và khen người đời là “khôn” thực chất là một tiếng cười tự trào hóm hỉnh nhưng vô cùng sâu cay. “Nơi vắng vẻ” mà tác giả tìm về không chỉ là không gian yên tĩnh của làng quê, mà còn là nơi thanh sạch, không có chỗ cho lòng tham và sự đố kỵ."
+    },
+    "thuat-hoai": {
+      "title": "Thuật Hoài",
+      "content": "Thuật Hoài (Tỏ lòng) là bài thơ thất ngôn tứ tuyệt khắc họa vẻ đẹp của người anh hùng với chí lớn và lòng trung thành tuyệt đối. Sự 'chấp nhận' ở đây là sự chấp nhận hy sinh của một bậc đại trượng phu. 'Một tấc lòng ưu ái' tuy nhỏ bé nhưng lại chứa đựng cả một đại dương tình cảm đối với đất nước."
+    },
+    "mua-xuan-nho-nho": {
+      "title": "Mùa xuân nho nhỏ",
+      "content": "Mùa xuân vốn là một đề tài kinh điển trong thi ca muôn thuở. Nếu Nguyễn Du về nên một mùa xuân tràn trễ nhựa sống với \"Cỏ non xanh tận chân trời\", Mãn Giác Thiền Sư nhìn thấy sự luân hồi bất diệt qua \"Chớ bảo xuân tàn hoa rụng hết / Đêm qua sân trước một cành mai\", thì Thanh Hải lại mang đến một định nghĩa hoàn toàn mới mẻ: \"Mùa xuân nho nhỏ\". Sáng tác vào tháng 11 năm 1980 – thời điểm đất nước vừa bước ra khỏi chiến tranh đầy gian khó và bản thân nhà thơ đang nằm trên giường bệnh viện ranh giới giữa sự sống và cái chết – bài thơ không chỉ là một bức tranh thiên nhiên tuyệt mỹ, mà là một bản di chúc tinh thần, một lời tự bạch thiêng liêng về khát vọng cống hiến trọn đời.\n\nĐiểm hội tụ sâu lắng và cảm động nhất của bài thơ nằm ở những khổ cuối, khi tác giả quay về với cõi lòng mình để đưa ra một định nghĩa mới về lẽ sống. Có một sự chuyển đổi đại từ mang tính bước ngoặt: từ \"Tôi\" (cá nhân) sang \"Ta\" (cộng đồng, sự đại diện). \"Ta làm con chim hót / Ta làm một cành hoa / Ta nhập vào hòa ca / Một nốt trầm xao xuyến\". Khát vọng làm \"nốt trầm\" là một chi tiết cực kỳ đắt giá. Trong một bản hòa ca vĩ đại của nhân loại, người ta thường tranh nhau làm những nốt cao chói lọi, nổi bật. Nhưng Thanh Hải chỉ xin làm một \"nốt trầm\". Nốt trầm không phô trương, không vỗ ngực xưng tên, nhưng nó là nền tảng sâu lắng nhất giữ lại dư âm \"xao xuyến\" trong lòng người."
+    },
+    "truong-son-dong-tay": {
+      "title": "Trường Sơn Đông, Trường Sơn Tây",
+      "content": "Mở đầu bài thơ, Phạm Tiến Duật đã đặt điểm nhìn trữ tình của mình lên một bối cảnh vĩ mô mang tầm vóc sử thi: dãy Trường Sơn hùng vĩ. Sự chia cắt địa lý Đông – Tây không chỉ là hiện thực tự nhiên mà đã trở thành một thủ pháp nghệ thuật đối ngẫu sắc sáo.\n\nĐiểm đột phá làm nên sức sống mãnh liệt của thơ Phạm Tiến Duật là việc ông dám bứt phá khỏi những lề thói lãng mạn mộng mơ, khuôn sáo để bám rễ sâu vào hiện thực bề bộn của chiến hào. Tình yêu trong Trường Sơn Đông, Trường Sơn Tây là một tình yêu trần trụi, góc cạnh nhưng vô cùng thiêng liêng. Người lính nhớ về người yêu không qua những hình ảnh trăng sao, bến nước, mà qua những xót xa rất đời thường: sợ người yêu bị vắt bám, muỗi cắn, sợ cái lạnh của mùa rừng làm em ốm. Từ sự thấu cảm ấy, tình yêu hóa thành hành động thiết thực mang đậm chất lính: \"Anh rút sợi mây, quen mắc võng / Để đan nôn Gửi em\"."
+    },
+    "ben-que": {
+      "title": "Bến quê",
+      "content": "Ở bề nổi của văn bản, câu chuyện đặt nhân vật Nhĩ vào một hoàn cảnh đầy trớ trêu. Nhĩ là hình mẫu đại diện cho lớp người thành đạt, năng động: thời trẻ anh từng đặt chân đến vô số ngóc ngách trên trái đất. Thế nhưng, quy luật nghiệt ngã của đời sống – căn bệnh hiểm nghèo – đã đẩy anh vào cảnh phế tàn. Sự bất lực tuyệt đối về thể xác: Một người từng tự do xê dịch nghìn trùng nay bị giam cầm trên giường bệnh, sự sống phụ thuộc hoàn toàn vào lòng tốt của lũ trẻ hàng xóm và sự chăm sóc của người vợ.\n\nSự thức tỉnh nội dung quan trọng nhất của tác phẩm nằm ở cách Nhĩ nhìn nhận về người vợ – Liên. Nhĩ nhận ra \"bàn tay gãy guộc\", bước chân \"nhẹ nhàng, rón rén\" và chiếc áo vá của vợ. Đó là dấu vết của hàng thập kỷ hy sinh thầm lặng, chịu thương chịu khó để làm hậu phương cho những chuyến đi dai dẳng của anh. Bến đổ tâm linh: Liên chính là chiếc \"bến quê\" bằng xương bằng thịt. Dù Nhĩ có phiêu bạt qua bao ghềnh thác đời người, thì chính tấm lòng bao dung, sự tận tụy vô điều kiện của người vợ mới là nơi duy nhất đón nhận, che chở và tha thứ cho anh trong những phút giây kiệt sức."
+    },
+    "cheo-luu-binh": {
+      "title": "Chèo Lưu Bình - Dương Lễ",
+      "content": "Lưu Bình - Dương Lễ là một trong những vở chèo cổ kinh điển nhất của sân khấu dân gian Việt Nam. Vượt ra khỏi khuôn mẫu của một câu chuyện dân gian thuần túy, tác phẩm chạm đến những tầng sâu thi pháp sân khấu truyền thống và gửi gắm những giá trị triết lý nhân sinh vô cùng sâu sắc về tình bạn, nghĩa vợ chồng cùng cách ứng xử giữa con người với con người.\n\nMấu chốt drama của vở chèo nằm ở cách ứng xử của Dương Lễ. Khi bạn tìm đến, Dương Lễ không vội vã tiếp đón hay cho tiền bạc. Ngược lại, ông sai người dọn cơm hẩm, cá ươn tiếp đãi và mắng chửi, đuổi Lưu Bình đi. Đây không phải là sự phụ ân bội nghĩa hay thói hợm hĩnh của kẻ đỗ đạt, mà là một hành động giáo dục mang tầm trí tuệ: Nếu cho tiền bạc, Lưu Bình sẽ ỷ lại, tiếp tục ăn chơi và chìm đắm trong sự tha hóa. Sự \"phũ phàng\" bị đụng chạm đến sĩ khí và lòng tự trọng cao độ của một kẻ sĩ sẽ đánh thức chí khí quật cường, ép Lưu Bình phải dấn thân vào con đường đèn sách để trả thù đời và khẳng định bản thân."
+    }
+  }
+}
