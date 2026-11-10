@@ -11,40 +11,72 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-inner">
+            <div class="loading-mark">C</div>
+            <p class="loading-text">Đang mở những trang chữ...</p>
+        </div>
+    </div>
+
+    <div class="read-progress" id="readProgress"></div>
+    <div class="toast" id="toast"></div>
+    <div id="confetti" class="confetti-container"></div>
+
     <header class="site-header">
         <a class="brand" href="#/">
             <span class="brand-mark">C</span>
             <span>CHỮ CHẠM<span class="brand-dot">.</span></span>
         </a>
-
-        <!-- THANH TÌM KIẾM TOÀN CẦU -->
         <div class="search-wrapper">
             <input type="text" id="globalSearch" placeholder="Tìm thẻ, tác giả, tác phẩm..." autocomplete="off">
             <div id="searchResults" class="search-results" hidden></div>
         </div>
-
         <nav class="main-nav">
             <a href="#/">Trang chủ</a>
             <a href="#/pack/chanh-venh">Chênh vênh</a>
             <a href="#/pack/nhung-nho">Nhung nhớ</a>
             <a href="#/pack/vo-ve">Vỗ về</a>
+            <a href="#/draw" class="nav-draw">✦ Rút thẻ</a>
         </nav>
+        <button class="icon-btn" id="themeToggle" title="Chế độ tối">🌙</button>
         <button class="menu-toggle" id="menuToggle">☰</button>
     </header>
 
     <main id="app">
         <section id="view-home" class="view active">
             <div class="hero">
+                <span class="orb orb1"></span><span class="orb orb2"></span><span class="orb orb3"></span>
                 <div class="hero-copy">
                     <p class="eyebrow"><span class="eyebrow-line"></span> VĂN HỌC · CẢM XÚC · KẾT NỐI</p>
                     <h1>Chạm vào chữ,<br><em>gặp lại mình.</em></h1>
                     <p class="hero-description">Một bộ thẻ nhỏ mở ra những miền cảm xúc lớn. Mỗi tấm thẻ là một lời mời đọc, cảm và đối thoại cùng văn chương.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#/draw">✦ Rút một thẻ</a>
+                        <a class="btn btn-ghost" href="#/pack/chanh-venh">Khám phá bộ thẻ</a>
+                    </div>
+                    <div class="progress-box" id="progressBox"></div>
                 </div>
             </div>
+
+            <section class="constellation-section">
+                <div class="section-heading" style="text-align:center; margin-bottom: 30px;">
+                    <p class="eyebrow">BẢN ĐỒ CẢM XÚC</p>
+                    <h2 style="font-family:var(--display); font-weight:400; font-size:42px; margin:0;">Hành trình chạm chữ<br><em style="color:var(--red)">của riêng bạn.</em></h2>
+                </div>
+                <div class="star-map" id="starMap"></div>
+                <p class="star-map-hint">✦ Mỗi ngôi sao là một thẻ. Sao đã sáng là thẻ đã đọc.</p>
+            </section>
+
+            <section class="draw-section" id="drawSection">
+                <p class="eyebrow">HÔM NAY CHỮ NÀO TÌM ĐẾN BẠN?</p>
+                <div id="drawBox"></div>
+            </section>
+
             <div class="intro-strip">
                 <p class="eyebrow">Ý TƯỞNG DỰ ÁN</p>
                 <p class="intro-statement">Đưa văn học đến gần hơn với đời sống qua những <em>trải nghiệm chạm – đọc – khám phá.</em></p>
             </div>
+
             <section class="themes-section">
                 <div class="section-heading">
                     <div><p class="eyebrow">BA MIỀN CẢM XÚC</p><h2>Mỗi người một miền,<br><em>mỗi miền một vệt chữ.</em></h2></div>
@@ -61,9 +93,6 @@
         <section id="view-card" class="view">
             <div class="card-detail-container" id="cardDetailContainer"></div>
         </section>
-
-        <!-- Đã xóa 2 section thừa ở đây -->
-
     </main>
 
     <footer class="site-footer">
@@ -75,3 +104,8 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
