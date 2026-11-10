@@ -101,11 +101,34 @@
         <span>© <span id="year"></span> Chữ Chạm.</span>
     </footer>
 
+    <!-- 1. NÚT HƯỚNG DẪN NỔI (Nằm trên) -->
+    <button class="help-fab" id="helpFab" title="Hướng dẫn sử dụng">?</button>
+
+    <!-- 2. POPUP HƯỚNG DẪN (Nằm dưới nút) -->
+    <div class="help-modal" id="helpModal">
+        <div class="help-modal-content">
+            <button class="help-close" id="helpCloseBtn">×</button>
+            <div class="help-header">
+                <p class="eyebrow" style="margin-bottom:10px;">CẨM NANG SỬ DỤNG</p>
+                <h2 style="font-family:var(--display);font-size:32px;font-weight:400;margin:0;">Chào mừng đến với<br><em style="color:var(--red)">Chữ Chạm.</em></h2>
+            </div>
+            <div class="help-body">
+                <p style="color:var(--muted);font-size:15px;line-height:1.7;margin-bottom:20px;">
+                    Chữ Chạm là bộ 21 thẻ văn học được thiết kế để bạn tương tác. Mỗi thẻ mang một câu chuyện, một trích dẫn và những phân tích thú vị. Dưới đây là các tính năng đặc sắc bạn có thể trải nghiệm:
+                </p>
+                <ul class="help-list">
+                    <li><span>✦</span> <b>Rút thẻ ngẫu nhiên:</b> Mỗi ngày một thẻ mới, ưu tiên những thẻ bạn chưa đọc.</li>
+                    <li><span>🌙</span> <b>Chế độ ban đêm:</b> Bấm biểu tượng mặt trăng trên góc phải để đổi màu nền, bảo vệ mắt.</li>
+                    <li><span>♥</span> <b>Lưu thẻ:</b> Lưu lại những câu trích dẫn tâm đắc vào bộ sưu tập của riêng bạn.</li>
+                    <li><span>🖼️</span> <b>Tải ảnh:</b> Xuất thẻ thành hình ảnh đẹp mắt để chia sẻ lên mạng xã hội.</li>
+                    <li><span>🧘</span> <b>Chế độ Tập trung (Zen):</b> Ẩn toàn bộ giao diện, chỉ giữ lại nội dung để đọc sâu.</li>
+                </ul>
+            </div>
+            <button class="btn btn-primary" id="helpStartBtn" style="width:100%;justify-content:center;margin-top:20px;">Bắt đầu khám phá</button>
+        </div>
+    </div>
+
+    <!-- 3. SCRIPT LUÔN NẰM CUỐI CÙNG, NGAY TRÊN THẺ ĐÓNG </body> -->
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
