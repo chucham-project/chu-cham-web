@@ -273,18 +273,6 @@ window.toggleZen = () => {
     if (btn) btn.style.display = isZen ? 'block' : 'none';
 };
 
-window.speakCard = () => {
-    if (!currentCard) return;
-    if (!('speechSynthesis' in window)) { toast('Trình duyệt không hỗ trợ đọc to'); return; }
-    speechSynthesis.cancel();
-    const text = `${currentCard.title}. ${currentCard.subtitle || ''}. Trích dẫn: ${currentCard.quote}. ${currentCard.quote_source}`;
-    const utt = new SpeechSynthesisUtterance(text);
-    utt.lang = 'vi-VN'; utt.rate = 0.9; utt.pitch = 1;
-    utt.onend = () => toast('Đọc xong ✓');
-    speechSynthesis.speak(utt);
-    toast('🔊 Đang đọc thẻ...');
-};
-
 window.downloadCardImage = async (slug) => {
     const card = allCards.find(c => c.slug === slug);
     if (!card) return;
@@ -392,7 +380,6 @@ function renderCard(card) {
         <button class="chip ${saved.includes(card.slug) ? 'on' : ''}" id="saveBtn" onclick="toggleSave('${card.slug}')">♥ Lưu</button>
         <button class="chip" onclick="copyLink('${card.slug}')">🔗 Chia sẻ</button>
         <button class="chip" onclick="downloadCardImage('${card.slug}')">🖼️ Tải ảnh</button>
-        <button class="chip" onclick="speakCard()">🔊 Đọc to</button>
         <button class="chip" onclick="toggleZen()">🧘 Tập trung</button>
         <button class="chip" onclick="randomCard()">✦ Ngẫu nhiên</button>
       </div>
@@ -471,3 +458,43 @@ $('#themeToggle').addEventListener('click', toggleTheme);
 $('#menuToggle').addEventListener('click', () => $('.main-nav').classList.toggle('open'));
 $('#year').textContent = new Date().getFullYear();
 init();
+/* ========== HELP / ONBOARDING ========== */
+function openHelp() {
+    const modal = document.getElementById('helpModal');
+    if (modal) modal.classList.add('active');
+}
+
+function closeHelp() {
+    const modal = document.getElementById('helpModal');
+    if (modal) modal.classList.remove('active');
+}
+
+// Chạy trực tiếp (không cần chờ DOMContentLoaded vì script đã ở cuối body)
+(function setupHelp() {
+    const helpFab = document.getElementById('helpFab');
+    const helpCloseBtn = document.getElementById('helpCloseBtn');
+    const helpStartBtn = document.getElementById('helpStartBtn');
+    const modal = document.getElementById('helpModal');
+
+    if (helpFab) helpFab.addEventListener('click', openHelp);
+    if (helpCloseBtn) helpCloseBtn.addEventListener('click', closeHelp);
+    if (helpStartBtn) helpStartBtn.addEventListener('click', closeHelp);
+
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeHelp();
+        });
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeHelp();
+    });
+
+    // Tự động mở hướng dẫn MỖI LẦN truy cập trang chủ
+    setTimeout(() => {
+        // Kiểm tra nếu đang ở trang chủ (không phải đang xem thẻ nào)
+        if (!currentCard && (location.hash === '' || location.hash === '#/' || location.hash === '#')) {
+            openHelp();
+        }
+    }, 1000); // Chờ 1 giây cho web load xong hiệu ứng rồi mới hiện
+})();
